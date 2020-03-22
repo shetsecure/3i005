@@ -1,6 +1,8 @@
 *.swp
 *.swo
 *.pyc
-.ipynb_checkpoints
 *.txt
 *.html
+.ipynb_checkpoints
+.vscode
+__pycache__
