@@ -149,6 +149,9 @@ class Grid():
         return placed
     
     def eq(self, other):
+        """
+            check if the other grid is similar to self.
+        """
         assert(isinstance(other, Grid))
         same_dimension = self.lines == other.lines and self.cols == other.cols
 
